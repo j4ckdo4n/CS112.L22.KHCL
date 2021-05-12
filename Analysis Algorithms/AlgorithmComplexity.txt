@@ -1,8 +1,0 @@
-- Định nghĩa:
-	+ Độ phức tạp của thuật toán là số phép tính phải thực hiện thuật toán.
-	+ Số các phép tính được thực hiện phụ thuộc vào độ lớn đầu vào (input).
-=> Do đó độ phức tạp của thuật toán được biểu thị là 1 hàm phụ thuộc đầu vào.
-
-- Định nghĩa kí hiệu Big-O:
-  Cho hàm số g(n), ta kí hiệu O(g(n)) (đọc là "O của g(n)") là tập hợp các hàm số f(n), trong đó
-tồn tại hằng số c và n0 dương sao cho 0 <= f(n) <= c*g(n) với mọi n >= n0 
