@@ -24,10 +24,10 @@
 ## NỘI DUNG:
 * Các bài tập phân tính thuật toán 
 * Các bài tập trên 
-* <p align="center">
-  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" </a>
-</p>
+<p>
   <a href= " https://cs.uit.edu.vn/wecode/cs112truongan/assignments "target="_blank"> Wecode </a>
+</p>
+ 
 
 <!-- Footer -->
 `Copyright © 2021`
