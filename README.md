@@ -19,7 +19,7 @@
 * **Mã môn học:** CS112
 * **Mã lớp:** CS112.L22.KHCL
 * **Năm học:** HK2 (2020 - 2021)
-* **Giảng viên:** Phạm Nguyễn Trường An - email:*truonganpn@hcmuit.edu.vn*
+* **Giảng viên:** Phạm Nguyễn Trường An - *truonganpn@hcmuit.edu.vn*
 
 ## NỘI DUNG:
 * Các bài tập phân tính thuật toán 
