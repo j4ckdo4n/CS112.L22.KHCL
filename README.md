@@ -23,11 +23,7 @@
 
 ## NỘI DUNG:
 * Các bài tập phân tính thuật toán 
-*
-<p>
-  <a href= "https://cs.uit.edu.vn/wecode/cs112truongan/assignments" target="_blank" title="Các bài tập trên Wecode" style="border: none;"> </a>
-</p>
- 
+* Các bài tập trên [Wecode] (https://cs.uit.edu.vn/wecode/cs112truongan/assignments)
 
 <!-- Footer -->
 `Copyright © 2021`
