@@ -1,22 +1,21 @@
 from utils import binary_to_decimal, one_hot_encoding
 
-def isSetSum(set, n, sum):
-    global res
-    if sum == 0:
-        return True
-    if n == 0: 
-        return False
-    if set[n-1] > sum:
-        return isSetSum(set, n-1, sum)
-    # else 
-    # two case:
-    #     1. include the last element
-    #     2. exclude the last element
-    if isSetSum(set, n-1, sum - set[n-1]):
-        res.append(n-1) # traceback 
-        return True
-    return isSetSum(set, n-1, sum)
+def FindSubsetSum(set, n, sum):
+	subset =([[(False, []) for i in range(sum + 1)] for i in range(n + 1)])
 
+	for i in range(n + 1):
+		subset[i][0] = (True, [])
+
+	for i in range(1, n + 1):
+		for j in range(1, sum + 1):
+			if (j < set[i - 1]) or (subset[i - 1][j][0]):
+				subset[i][j] = subset[i - 1][j]
+
+			elif subset[i - 1][j - set[i - 1]][0]:
+				#traceback 
+				subset[i][j] = (True, [i - 1] + subset[i - 1][j - set[i - 1]][1])
+
+	return subset[n][sum]
 
 file_inp = open('INPUT.txt','r')
 file_out = open('OUTPUT.txt', 'r')
@@ -29,8 +28,10 @@ for i in range(NUMBER_OF_CASES):
     public_key = [int(x) for x in file_inp.readline().split()]
     answer = int(file_out.readline())
     C = int(file_inp.readline())
-    if isSetSum(set=public_key, n=len(public_key), sum=C):
-        one_hot = one_hot_encoding(res, len(public_key))
+
+    tmp = FindSubsetSum(set=public_key, n=len(public_key), sum=C)
+    if tmp[0]:
+        one_hot = one_hot_encoding(tmp[1], len(public_key))
         decrypted_message = binary_to_decimal(one_hot)
         if decrypted_message == answer:
             CORRECTED_CASES += 1
