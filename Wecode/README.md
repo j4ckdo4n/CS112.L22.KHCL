@@ -1,1 +1,1 @@
-# Wecode assignments
+# Wecode weekly assignments
