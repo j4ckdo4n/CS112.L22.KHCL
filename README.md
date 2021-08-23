@@ -22,7 +22,7 @@
 * **Giảng viên:** *ThS. Phạm Nguyễn Trường An - truonganpn@hcmuit.edu.vn*
 
 ## NỘI DUNG:
-* Các bài tập phân tính thuật toán 
+* Các bài tập phân tích thuật toán 
 * Các bài tập trên [Wecode](https://cs.uit.edu.vn/wecode/cs112truongan/assignments)
 * Đồ án cuối kỳ 
 
