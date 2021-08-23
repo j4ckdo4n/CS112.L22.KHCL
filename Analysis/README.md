@@ -1,1 +1,1 @@
-# Colab algorithm analysis exercises
+# Algorithm analysis exercises

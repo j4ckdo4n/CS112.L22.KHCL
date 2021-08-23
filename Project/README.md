@@ -1,1 +1,1 @@
-# Final project: MERKLE-HELLMAN KNAPSACK CRYPTOSYSTEM
+# Final project: **Merkle–Hellman knapsack cryptosystem**
