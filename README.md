@@ -22,9 +22,9 @@
 * **Giảng viên:** *ThS. Phạm Nguyễn Trường An - truonganpn@hcmuit.edu.vn*
 
 ## NỘI DUNG:
-* Các bài tập phân tích thuật toán 
-* Các bài tập trên [Wecode](https://cs.uit.edu.vn/wecode/cs112truongan/assignments)
-* Đồ án cuối kỳ 
+* Các bài tập [Phân tích thuật toán](https://github.com/JD981/CS112.L22.KHCL/tree/master/Analysis)
+* Các bài tập trên [Wecode](https://cs.uit.edu.vn/wecode/cs112truongan/assignments) và lời giải [Assignments](https://github.com/JD981/CS112.L22.KHCL/tree/master/Wecode) các tuần. 
+* [Đồ án cuối kỳ](https://github.com/JD981/CS112.L22.KHCL/tree/master/Project)
 
 <!-- Footer -->
 `Copyright © 2021`
