@@ -23,7 +23,7 @@
 
 ## NỘI DUNG:
 * Các bài tập [Phân tích thuật toán](https://github.com/JD981/CS112.L22.KHCL/tree/master/Analysis)
-* Các bài tập trên [Wecode](https://cs.uit.edu.vn/wecode/cs112truongan/assignments) và lời giải [Assignments](https://github.com/JD981/CS112.L22.KHCL/tree/master/Wecode) các tuần. 
+* Lời giải các [Assignments](https://github.com/JD981/CS112.L22.KHCL/tree/master/Wecode) trên [Wecode](https://cs.uit.edu.vn/wecode/cs112truongan/assignments)
 * [Đồ án cuối kỳ](https://github.com/JD981/CS112.L22.KHCL/tree/master/Project)
 
 <!-- Footer -->
